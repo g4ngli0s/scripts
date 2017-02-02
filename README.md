@@ -2,6 +2,9 @@
 Scripts de interés para CTF
 
 ```
+base32_decoder.py
+Decodifica una cadena de Base32 a ASCII
+
 base64_recursive_decoder.sh
 Decodifica recursivamente un fichero de texto msg.txt en base64, buscando una cadena de texto.
 
