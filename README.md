@@ -33,5 +33,5 @@ strings_recursivo.sh
 Aplica el comando strings a los ficheros de todo el árbol del directorio que se le pasa como parametro.
 
 xorregchars.py
-
+Halla entre los posibles valores de caracters válidos la combinación de ellos que la operación AND da 0
 ```
