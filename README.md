@@ -5,6 +5,9 @@ Scripts de interés para CTF
 alexctf17_sc1.py
 Solución al reto SC1 del CTF AlexCTF 2017 (scripting)
 
+alphanumenc_save.py
+Version mejorada para ahorrar bytes del encoder hecho por greyshell
+
 base32_decoder.py
 Decodifica una cadena de Base32 a ASCII
 
