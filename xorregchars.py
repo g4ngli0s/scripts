@@ -37,15 +37,13 @@ if __name__=='__main__':
 	cuenta = 0
 	for i in range(0,len(todoval)):
 		val1 = int(todoval[i],16)
-		if cuenta >= valores:
-			print cuenta,valores				
+		if cuenta >= valores:			
 			break
 		for j in range(0,len(todoval)):
 			val2 = int(todoval[j],16)
 			if val1 & val2 == 0:
 				print todoval[i] + ' AND ' + todoval[j] + ' = 0x0'
 				cuenta += 1
-				if cuenta >= valores:
-					print cuenta,valores				
+				if cuenta >= valores:			
 					break
 				
