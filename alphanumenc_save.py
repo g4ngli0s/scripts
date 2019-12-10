@@ -5,8 +5,7 @@
 # https://github.com/greyshell/greyshell.github.io/blob/master/downloads/code/2016/11/hpnnm-B.07.53/alphaNumEncoder_egghunter.py
 # author: greyshell
 # description: alphanum encoder
-# revision by ring3rbell: save bytes when there are not badchars in our shellcode (we only need a PUSH shellcode values) 
-
+# revision by ring3rbell (20191210): save bytes when there are not badchars in our shellcode (we only need a PUSH shellcode values) 
 
 import binascii
 import sys
@@ -14,7 +13,6 @@ import pdb
 
 silent = False
 arch = 32
-
 
 def toHex(n):
 	"""
