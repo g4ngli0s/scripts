@@ -260,10 +260,10 @@ class MnEncoder:
 				print "                    %s %s %s %s" % (opcodes[3],opcodes[2],opcodes[1],opcodes[0])				
 				# We need only a push			
 				thisencodedbyte = "\x68"
-				thisencodedbyte += hex2bin("\\x%s" % opcodes[0])
-				thisencodedbyte += hex2bin("\\x%s" % opcodes[1])
-				thisencodedbyte += hex2bin("\\x%s" % opcodes[2])
 				thisencodedbyte += hex2bin("\\x%s" % opcodes[3])
+				thisencodedbyte += hex2bin("\\x%s" % opcodes[2])
+				thisencodedbyte += hex2bin("\\x%s" % opcodes[1])
+				thisencodedbyte += hex2bin("\\x%s" % opcodes[0])
 				encodedbytes[encodedline] = [thisencodedbyte,"PUSH 0x%s%s%s%s" % (opcodes[3],opcodes[2],opcodes[1],opcodes[0])]
 				
 
