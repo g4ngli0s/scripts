@@ -33,7 +33,7 @@ hex_decoder.py
 Decodifica una cadena de Hex a ASCII
 
 ioctl_parser.py
-Decodificador de IOCTLs del kernel de windows del maestro Ricardo Narvaja
+Decodificador de IOCTLs para drivers del kernel de windows hecho por el maestro Ricardo Narvaja
 
 strings_recursivo.sh
 Aplica el comando strings a los ficheros de todo el árbol del directorio que se le pasa como parametro.
