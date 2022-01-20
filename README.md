@@ -1,5 +1,5 @@
 # scripts
-Scripts de interés para CTF
+Scripts de interés
 
 ```
 alexctf17_sc1.py
