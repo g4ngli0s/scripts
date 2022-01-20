@@ -32,6 +32,9 @@ Codifica una cadena ASCII a Base16, Base32, Base64, Hex y Hex-URL
 hex_decoder.py
 Decodifica una cadena de Hex a ASCII
 
+ioctl_parser.py
+Decodificador de IOCTLs del kernel de windows del maestro Ricardo Narvaja
+
 strings_recursivo.sh
 Aplica el comando strings a los ficheros de todo el árbol del directorio que se le pasa como parametro.
 
