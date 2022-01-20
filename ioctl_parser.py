@@ -1,6 +1,10 @@
 import os
 import sys
 
+#ioctl_code=input()
+
+#ioctl_code= "0x222409"
+
 n = len(sys.argv)
 print("Total arguments passed:", n)
 
@@ -55,7 +59,6 @@ deviceVal = (int_ioctl >> 16) & 0xFFF
 print("DEVICE 0x%x"%deviceVal)
 
 devices = {
-"<UNKNOWN>"                       :0x00000000,
 "FILE_DEVICE_BEEP"                :0x00000001,
 "FILE_DEVICE_CD_ROM"              :0x00000002,
 "FILE_DEVICE_CD_ROM_FILE_SYSTEM"  :0x00000003,
@@ -115,8 +118,6 @@ devices = {
 "FILE_DEVICE_KSEC"                :0x00000039,
 "FILE_DEVICE_FIPS"                :0x0000003A,
 "FILE_DEVICE_INFINIBAND"          :0x0000003B,
-"<UNKNOWN>"                       :0x0000003C,
-"<UNKNOWN>"                       :0x0000003D,
 "FILE_DEVICE_VMBUS"               :0x0000003E,
 "FILE_DEVICE_CRYPT_PROVIDER"      :0x0000003F,
 "FILE_DEVICE_WPD"                 :0x00000040,
@@ -159,4 +160,4 @@ for name, value in devices.items():
         break
         
 if noValue:        
-    print ("DEVICE_TYPE = <NOT_IN_THE_LIST>")        
+    print ("DEVICE_TYPE = <UNKNOWN>")        
